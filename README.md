@@ -1,7 +1,7 @@
-<h1>Deploy an Azure Kubernetes service</h1>
+<h1>Deploy an Azure Kubernetes service Cluster</h1>
 
 <h2>Description</h2>
-This lab will Deploy an Azure Kubernetes service.<br /><br />
+This lab will Deploy an Azure Kubernetes service Cluster.<br /><br />
 Azure Kubernetes Service (AKS) is a managed Kubernetes service provided by Microsoft Azure. Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
 <br /><br />
 With Azure Kubernetes Service, developers can deploy, manage, and scale containerized applications using Kubernetes without having to manage the underlying infrastructure. AKS abstracts away the complexity of managing Kubernetes clusters, allowing developers to focus on building and deploying their applications.<br />
