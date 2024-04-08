@@ -1,0 +1,44 @@
+
+
+1. Create an deployment.yml file and enter the following content. Remember to change the name of the Azure Container Registry
+
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-html-website-deployment
+  labels:
+    app: my-html-website
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-html-website
+  template:
+    metadata:
+      labels:
+        app: my-html-website
+    spec:
+      containers:
+      - name: my-html-website
+        image: tinashecontreg.azurecr.io/my-html-website:latest
+        ports:
+        - containerPort: 80
+
+
+
+2. Create a service.yml file and enter the following content
+
+
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-html-website
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: my-html-website
