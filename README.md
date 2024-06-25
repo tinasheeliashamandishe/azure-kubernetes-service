@@ -25,7 +25,7 @@ Confirm the deployment.<br/>
 <img src="https://i.imgur.com/Ukg7jyw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/><br/>
 <br />
 
-<h4>Once the cluster has been deployed. Lets add a container to it.<br />We re going to deploy the contsainer in out azure registr.</h4><br />
+<h4>Once the cluster has been deployed. Lets add a container to it.<br />We are going to deploy the container in our azure registry.</h4><br />
 
 
 <h4>Step 2</h4> 
